@@ -148,6 +148,7 @@ second-section-style
 .login-input button:hover{
     background-color:#a3003c ;
     transition: background-color 1s;
+    cursor: pointer;
 }
 
 .logo-section{
@@ -171,10 +172,12 @@ footer{
 .logo img{
     width: 100%;
 }
-.icons h2 i {font-size: 32px;
+.icons h2 a {font-size: 32px;
     padding: 14px;
     text-align: center;
+   color: #E02C6D;
 }
+
 
 
 /*---------------

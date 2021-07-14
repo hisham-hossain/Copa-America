@@ -7,9 +7,11 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     align-items: center;
-    overflow-x: hidden;
+    overflow: hidden;
+    padding-bottom: 5px;
+
    
 }
 /* ---------------

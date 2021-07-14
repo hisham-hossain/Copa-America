@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     margin-bottom: 70px;
     align-items: center;
+    overflow-x: hidden;
    
 }
 /* ---------------
@@ -28,8 +29,6 @@ first-section-style
 .intro{
     width: 50%;
     padding-left: 5%;
-    margin-right: 20px;
-   
 }
 .intro h1{
     font-weight: bold;
@@ -39,7 +38,7 @@ first-section-style
 
 .intro img 
 {
-    width: 80%;
+    width: 70%;
 }
 .button1 {
     text-decoration: none;
@@ -117,7 +116,6 @@ second-section-style
 .heading{
     width: 50%;
     padding-left: 5%;
-    margin-right: 20px;
 }
 .heading img{
     width:90%;

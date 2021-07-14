@@ -233,9 +233,7 @@ media-quaries-for-Tablet
 ------------------------ */
 
 @media only screen and (min-width:688px) and (max-width:992px) {
-    .container{
-        width: 100%;
-    }
+   
     .intro{
         width: 40%;
         padding-top: 10px;
@@ -252,7 +250,25 @@ media-quaries-for-Tablet
         width: 305px;
         height: 450px;
     }
-    
+    .highlights{
+        margin: 0px;
+        flex-direction: column;
+    }
+    .heading{
+        width: 95%;
+    }
+.heading img {margin-top : 20px;
+width: 100%;
+
+}
+.fourth-sec-heading{
+text-align: center;
+font-size: 35px;
+}
+.container{
+    width: 100%;
+    border: 0px;
+}
 }
 
   

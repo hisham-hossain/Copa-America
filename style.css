@@ -1,0 +1,258 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+    align-items: center;
+   
+}
+/* ---------------
+first-section-style
+--------------- */
+
+.first-sec{
+    background-color: #2D25A0;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+.intro{
+    width: 50%;
+    padding-left: 5%;
+    margin-right: 20px;
+   
+}
+.intro h1{
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+}
+
+.intro img 
+{
+    width: 80%;
+}
+.button1 {
+    text-decoration: none;
+    background-color: #E02C6D;
+    ;
+    color: white;
+    padding: 10px 30px;
+    
+    
+}
+.button1:hover{
+    background-color: #960037;
+    transition: background-color 2s;
+}
+/* ---------------
+second-section-style
+--------------- */
+
+.player-album{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+.album{
+    width: 320px;
+    height: 465px;
+    padding: 15px;
+    
+    box-shadow: 1px 1px 5px gray;
+}
+
+
+.photo img{
+    width: 100%;
+}
+
+/*---------------
+ highlight-sec-style
+--------------- */
+.highlights{
+    
+        display: flex;
+        align-items: center;
+        padding: 5%;
+    }
+    .heading h1{
+        font-weight: bold;
+    font-size: 48px;
+    color: black;
+    
+    }
+    .heading p {
+        font-size: 16px;
+        color: #6C6C6C;
+        margin: 30px 0px;
+        text-align: justify;
+    }
+.heading{
+    width: 50%;
+    padding-left: 5%;
+    margin-right: 20px;
+}
+.heading img{
+    width:90%;
+}
+/*---------------
+ fourth-sec-style
+--------------- */
+
+.fourth-sec{
+    background-color: #2D25A0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.fourth-sec-heading{
+    color: white;
+    font-size: 50px;
+   
+}
+.login{
+    width: 600px;
+    height: 400px;
+    justify-content: center;
+   display: flex;
+}
+.login-input h1 {
+    text-align: center;
+    color: white;
+}
+.login-input {
+    display: flex;
+    flex-direction: column;   
+}
+.login-input input, button{
+    font-size: 1.3em;
+    margin-top: 15px;
+    border: 2px solid lightgray;
+    border-radius: 5px ;
+    padding-left: 10px;
+}
+.login-input button{
+    color: white;
+    background-color: #E02C6D;;
+}
+
+.login-input button:hover{
+    background-color:#a3003c ;
+    transition: background-color 1s;
+}
+
+.logo-section{
+    display: flex;
+    justify-content: center;
+}
+/*---------------
+ footer-sec-style
+--------------- */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.logo{
+    width: 480px;
+    height:110px; 
+    
+ }
+.logo img{
+    width: 100%;
+}
+.icons h2 i {font-size: 32px;
+    padding: 14px;
+    text-align: center;
+}
+
+
+/*---------------
+ media-quaries-styling
+--------------- */
+
+
+/* ----------------------------
+media-quaries-for-phone
+------------------------ */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+     .header {width: 100%;
+         margin-left: 5%;
+      padding: 0%; 
+      flex-direction: column;
+     }
+     .intro  h1 {
+         font-size: 36px;
+     }
+     
+     .intro img {
+         width: 95%;
+     }
+     .intro{
+         padding-bottom: 30px;
+         width: 100%;
+         
+         }
+         .button1{
+             padding: 10px 20px;
+         }
+    .player-album{grid-template-columns: 1fr;}
+         
+
+         .highlights{
+             margin: 0px;
+             flex-direction: column;
+         }
+         .heading{
+             width: 95%;
+         }
+.heading img {margin-top : 20px;
+    width: 100%;
+    
+}
+.fourth-sec-heading{
+ text-align: center;
+    font-size: 35px;
+}
+}
+/* ----------------------------
+media-quaries-for-Tablet
+------------------------ */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .intro{
+        width: 40%;
+        padding-top: 10px;
+    }
+    .intro h1{
+        font-size: 40px;
+    }
+    .intro img{
+        width: 100%;
+    }
+
+    .player-album{grid-template-columns:1fr 1fr;}
+    .album{
+        width: 305px;
+        height: 450px;
+    }
+    
+}
+
+  

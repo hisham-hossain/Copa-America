@@ -2,6 +2,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
+    
 }
 .container{
     display: flex;
@@ -52,10 +53,20 @@ first-section-style
     background-color: #960037;
     transition: background-color 2s;
 }
+
+.video{height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin-top: 0px;
+}
 /* ---------------
 second-section-style
 --------------- */
-
+.second-sec{
+    margin-top: 30px;
+}
 .player-album{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -151,13 +162,14 @@ second-section-style
     cursor: pointer;
 }
 
+
+/*---------------
+ footer-sec-style
+--------------- */
 .logo-section{
     display: flex;
     justify-content: center;
 }
-/*---------------
- footer-sec-style
---------------- */
 footer{
     width: 100%;
     display: flex;
@@ -211,6 +223,10 @@ media-quaries-for-phone
          }
          .button1{
              padding: 10px 20px;
+         }
+         .iframe-container iframe{
+             width: 300px;
+             height: 200px;
          }
     .player-album{grid-template-columns: 1fr;}
          

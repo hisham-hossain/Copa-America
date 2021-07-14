@@ -24,6 +24,7 @@ first-section-style
     align-items: center;
     padding: 5%;
 }
+
 .intro{
     width: 50%;
     padding-left: 5%;
@@ -49,6 +50,11 @@ first-section-style
     
     
 }
+.header:hover .intro-image {transform: scale(1.09) rotate(30deg);
+    transition: transform 2s;
+    
+}
+    
 .button1:hover{
     background-color: #960037;
     transition: background-color 2s;
